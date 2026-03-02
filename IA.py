@@ -22,4 +22,4 @@ if msg_user:
     mensagem = {"role": "user", "content": msg_user}
     st.session_state["lm"].append(mensagem)
 
-    
+    bdghrtehgrgertgher
