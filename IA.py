@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 modelo = OpenAI(api_key="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")
 
 st.write("### Capivara Maluca 🦫") # markdown
