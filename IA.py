@@ -1,9 +1,9 @@
 import streamlit as st
 from openai import OpenAI
 
-modelo = OpenAI(api_key="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")
+modelo = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.write("### Capivara Maluca 🦫") # markdown
+st.write("### Capivara 🦫") # markdown
 
 #lista_mensagem as lm
 
